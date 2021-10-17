@@ -48,3 +48,13 @@ body {
 #video-play a {
   color: #fff;
 }
+
+#page-header {
+  height: 200px;
+  background: url(../img/image1.jpg);
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  border-bottom: 1px solid #eee;
+  color: #fff;
+  padding-top: 50px;
+}
