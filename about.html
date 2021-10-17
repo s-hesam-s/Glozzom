@@ -203,6 +203,56 @@
       </div>
     </section>
 
+    <!-- TESTIMONIALS-->
+    <section id="testimonials" class="p-4 bg-dark text-white text-center">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="row">
+          <div class="col">
+            <div class="slider">
+              <figure>
+                <blockquote class="blockquote">
+                  <p>A well-known quote, contained in a blockquote element.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  John Doe From <cite title="Company 1">Company 1</cite>
+                </figcaption>
+              </figure>
+
+              <figure>
+                <blockquote class="blockquote">
+                  <p>A well-known quote, contained in a blockquote element.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Sam Smith From <cite title="Company 2">Company 2</cite>
+                </figcaption>
+              </figure>
+
+              <figure>
+                <blockquote class="blockquote">
+                  <p>A well-known quote, contained in a blockquote element.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Meghan Williams From <cite title="Company 3">Company 3</cite>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Copyright &copy; <span id="year"></span> Glozzom</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -223,6 +273,13 @@
     <script>
       // Get the current year for the copyright
       $("#year").text(new Date().getFullYear());
+
+      $(".slider").slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+      });
     </script>
   </body>
 </html>
