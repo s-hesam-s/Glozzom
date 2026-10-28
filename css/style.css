@@ -35,6 +35,12 @@ body {
   background: rgba(0, 0, 0, 0.7);
 }
 
+/* Overlay rows have no container padding to absorb Bootstrap's negative gutters. */
+.dark-overlay > .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 #video-play {
   position: relative;
   min-height: 200px;
