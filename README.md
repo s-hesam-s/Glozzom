@@ -2,6 +2,14 @@
 
 An educational Bootstrap website with separate marketing, services, blog and contact pages.
 
+## Captured preview
+
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/screenshots/portfolio-poster.png" /><source type="image/webp" srcset="docs/screenshots/portfolio.webp" /><img src="docs/screenshots/portfolio.gif" width="100%" alt="Glozzom — actual captured UI states" /></picture>
+
+Business-site carousel and local photo gallery. Six broken remote gallery images now use assets already present in this repository.
+
+[Reproduce this capture and view the static image](docs/PORTFOLIO-PREVIEW.md) · [Mobile capture](docs/screenshots/portfolio-mobile.png)
+
 ## Included UI
 
 - Navigation, carousel and feature sections on the home page.
